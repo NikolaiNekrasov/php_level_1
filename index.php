@@ -8,13 +8,11 @@ $d = date("Y");
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="author" content="Luka Cvrk (www.solucija.com)" />
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<?php echo $a; 	
-?>
+	<?= $a; ?>
 </head>
 <body>
 	<div id="content">
-		<?php echo $b; 	
-?>
+		<?= $b; ?>
 		
 		<ul id="menu">
 			<li><a href="#">home</a></li>
@@ -51,8 +49,7 @@ $d = date("Y");
 		</div>
 		
 		<div id="footer">
-			<p>Copyright &copy; <em>minimalistica</em>&nbsp;<?php echo $d;
-?> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+			<p>Copyright &copy; <em>minimalistica</em>&nbsp;<?= date('Y');?> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
 		</div>	
 	</div>
 </body>
