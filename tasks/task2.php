@@ -21,7 +21,7 @@ echo '<hr>';
 //Task 2
 echo '<h3>Task 2</h3>';
 
-$a = rand(0, 10);
+$a = rand(0, 15);
 echo 'a = ' . $a . '<br>' . '<br>';
 for ($i = $a; $i<=15; $i++){
 switch($i){
